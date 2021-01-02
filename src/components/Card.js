@@ -4,7 +4,7 @@ function Card(props) {
   console.log(props);
   return (
     <div>
-      <div className="feature" data-aos="flip-left" data-aos-delay="1600">
+      <div className="feature" data-aos="fade-right">
         <h3>{props.data.title}</h3>
         <p>{props.data.heading}</p>
       </div>

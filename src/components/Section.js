@@ -5,13 +5,9 @@ import { Row, Col } from "react-bootstrap";
 function Section() {
   console.log(CardData);
   return (
-    <div className="section">
+    <div className="features">
       {CardData.map((details) => {
-        return (
-          <div className="cardCOntainer">
-            <Card data={details}></Card>
-          </div>
-        );
+        return <Card data={details}></Card>;
       })}
     </div>
   );

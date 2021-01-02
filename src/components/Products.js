@@ -7,18 +7,13 @@ function Products() {
         <div className="productive-img" data-aos="fade-right">
           <img src={imageproductive} alt={imageproductive} />
         </div>
-        <div
-          className="productive-txt"
-          data-aos="fade-left"
-          data-aos-delay="1800"
-          data-aos-duration="2000"
-        >
+        <div className="productive-txt" data-aos="fade-left">
           <h1>Stay productive, wherever you are</h1>
           <p>
             Never let location be an issue when accessing your files. Fylo has
             you covered for all of your file storage needs.
           </p>
-          0
+
           <p>
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required.

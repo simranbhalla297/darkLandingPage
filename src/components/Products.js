@@ -3,7 +3,10 @@ import imageproductive from "../images/illustration-stay-productive.png";
 function Products() {
   return (
     <div className="productive_container">
-      <div className="productive container">
+      <div
+        className="productive container"
+        style={{ marginBottom: "0", marginTop: "0" }}
+      >
         <div className="productive-img" data-aos="fade-right">
           <img src={imageproductive} alt={imageproductive} />
         </div>
